@@ -3,20 +3,11 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   ECNU第2年<br/>
   保登心爱<br/>
   生如远舟，向死而生<br/>
-  <a href="mailto:i@wu-kan.cn">
-    <i class="fa-solid fa-envelope"></i>
-  </a>
-  <a href="https://github.com/wu-kan">
+  <a href="https://github.com/BaodenAyane">
     <i class="fa-brands fa-github"></i>
   </a>
-  <a href="https://vjudge.net/user/WuK">
-    <i class="fa-solid fa-smile"></i>
-  </a>
-  <a href="https://space.bilibili.com/166390020">
+  <a href="https://space.bilibili.com/332187186">
     <i class="fa-brands fa-bilibili"></i>
-  </a>
-  <a href="https://www.zhihu.com/people/wu.kan/activities">
-    <i class="fa-brands fa-zhihu"></i>
   </a>
   <br/>
 url: https://baodenayane.github.io # 你的域名，例如 https://wu-kan.github.io

@@ -7,7 +7,7 @@ tags:
 [`目标检测算法视频`](https://www.bilibili.com/video/BV1mU4y1m7dN)
 
 ## RCNN介绍：
-步骤一：训练分类网络（AlexNet）
+步骤一：训练分类网络（AlexNet）。
 步骤二：模型做fine-tuning
         1.类别1000改为20
         2.去掉FC

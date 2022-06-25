@@ -53,3 +53,15 @@ tags:
         1.CNN不同尺度输入
         
         2.仅对原图提取一次卷积特征
+        
+## Faster RNN介绍
+
+    结合SPPNet改进RCNN
+        
+        ROI Pooling：单层SPPNet
+        
+    多任务网络同时解决分类和回归
+    
+        共享卷积特征
+        
+    为Faster RCNN的提出打下了基础，提供了可能

@@ -19,9 +19,17 @@ tags:
 
         1.提取候选框（选择性搜索）
         
-              a.生成区域集R，具体参见论文《Efficient Graph Based image Segmentation》
+              step0:生成区域集R，具体参见论文《Efficient Graph Based image Segmentation》
               
-              b.
+              step1:计算区域集R里每个相邻区域的相似度S={s1，s2...}
+              
+              step2：找出相似度最高的两个区域，将其合并为新集，添加进R
+              
+              step3：从S中移除所有与step2有关的子集
+              
+              step4：计算新集与所有子集的相似度
+              
+              step5：跳至step2，直至S为空
         
         2.对于每一个区域：修正区域为CNN的输入，利用网络对候选框提取到特征
         

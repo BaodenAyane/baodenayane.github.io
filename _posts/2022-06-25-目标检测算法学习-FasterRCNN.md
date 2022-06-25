@@ -19,5 +19,9 @@ tags:
 
         1.提取候选框（选择性搜索）
         
+              a.生成区域集R，具体参见论文《Efficient Graph Based image Segmentation》
+              
+              b.
+        
         2.对于每一个区域：修正区域为CNN的输入，利用网络对候选框提取到特征
         

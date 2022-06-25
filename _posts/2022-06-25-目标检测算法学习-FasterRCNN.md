@@ -54,14 +54,44 @@ tags:
         
         2.仅对原图提取一次卷积特征
         
-## Faster RNN介绍
+## Fast RCNN介绍
 
     结合SPPNet改进RCNN
         
         ROI Pooling：单层SPPNet
+        
+            1.根据输入的image，将ROI映射到feature map的对应位置
+            
+            2.将映射后的区域划分为相同大小的sections（sections数量和输出的维度相同）
+            
+            3.对每个section进行max pooling操作
         
     多任务网络同时解决分类和回归
     
         共享卷积特征
         
     为Faster RCNN的提出打下了基础，提供了可能
+
+## Faster RCNN操作
+
+    Region Proposal Network（RPN）
+    
+    端到端的检测
+    
+## Faster RCNN网络结构
+
+    主干网络：13con+13relu+4pooling
+    
+    RPN：3*3+背景前景区分+初步定位
+    
+        Anchor
+        
+        前景背景分类+框位置的回归
+        
+            粗分类
+            
+            粗定位
+    
+    ROIPooling
+    
+    分类+位置精确定位
